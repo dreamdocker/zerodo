@@ -47,7 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroStack.IntegrationTests"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroStack.FunctionalTests", "Tests\ZeroStack.FunctionalTests\ZeroStack.FunctionalTests.csproj", "{19CC3C6D-1E04-4647-8E5D-0D1E810B176B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroStack.EventBus.MemoryQueue", "BuildingBlocks\EventBus\ZeroStack.EventBus.MemoryQueue\ZeroStack.EventBus.MemoryQueue.csproj", "{0CDF5B52-0747-420D-B891-9A7D2A866CF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroStack.EventBus.MemoryQueue", "BuildingBlocks\EventBus\ZeroStack.EventBus.MemoryQueue\ZeroStack.EventBus.MemoryQueue.csproj", "{0CDF5B52-0747-420D-B891-9A7D2A866CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{CB99A4DE-0C8D-4817-821F-E6157CFA0DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroStack.ProjectRename", "Tools\ZeroStack.ProjectRename\ZeroStack.ProjectRename.csproj", "{EFDFA712-8D87-41BA-A394-61030F984080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,10 @@ Global
 		{0CDF5B52-0747-420D-B891-9A7D2A866CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CDF5B52-0747-420D-B891-9A7D2A866CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CDF5B52-0747-420D-B891-9A7D2A866CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDFA712-8D87-41BA-A394-61030F984080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDFA712-8D87-41BA-A394-61030F984080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDFA712-8D87-41BA-A394-61030F984080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDFA712-8D87-41BA-A394-61030F984080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +141,7 @@ Global
 		{5E160B00-F181-4D7E-8D7E-22AA9062BE84} = {1738D6D7-1268-405E-9C87-8D798A27BA4C}
 		{19CC3C6D-1E04-4647-8E5D-0D1E810B176B} = {1738D6D7-1268-405E-9C87-8D798A27BA4C}
 		{0CDF5B52-0747-420D-B891-9A7D2A866CF1} = {A9373239-E68C-4024-94CC-0C4A92439C63}
+		{EFDFA712-8D87-41BA-A394-61030F984080} = {CB99A4DE-0C8D-4817-821F-E6157CFA0DEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C5C0385-1246-4600-92B8-5310840CA03B}
